@@ -1,0 +1,24 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #323232;
+}
+p{
+    color: #dadada;
+}
+
+#panel{
+    display: flex;
+    flex-direction: row;
+}
+#panel #sidebar{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: auto;
+    border: 4px solid #1C1C1C;
+}
+
+canvas {
+    display: block;
+}
